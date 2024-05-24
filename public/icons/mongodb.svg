@@ -1,0 +1,65 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="-8 -8 48.00 48.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
+<g id="SVGRepo_bgCarrier" stroke-width="0">
+<path transform="translate(-8, -8), scale(1.5)" d="M16,29.707469183951616C18.27256324995718,29.747516233908826,20.74540074953076,29.90489095238362,22.634509874192183,28.641002426291557C24.502857162703684,27.391004387597985,24.835149683502316,24.8296036362838,26.08428894239715,22.960682075834107C27.31238170776229,21.12324959496415,29.386083225299423,19.830569167181046,29.951216128946154,17.693984330739035C30.535643100092244,15.484454861651477,30.162444888985203,13.070690913259696,29.255060822804182,10.973018508948162C28.36316875168911,8.911160190147672,26.50963829637461,7.52270626709411,24.881774174171635,5.9745494297649415C23.203583818079416,4.378530549142367,21.833213951040396,1.843841230437144,19.52083266345779,1.7154203621077446C17.110887588901047,1.5815811718484787,15.740797077077222,4.875247619372347,13.371389108955364,5.335306389346583C10.811368868785312,5.832375606065454,8.134512813348463,3.4121373505100943,5.719089798286792,4.395251328948111C3.35583777705605,5.357130917805354,1.8799289144971403,7.918508949076453,1.075546937490257,10.339901543097064C0.28098640950046583,12.73172909887424,0.7317834134591356,15.326319856829663,1.2698572945605147,17.788563140441365C1.7767651123767103,20.108189521995893,2.653532357755525,22.3315882787829,4.106471637750186,24.20950987842851C5.519263104540257,26.035540496369975,7.391407270371399,27.440559937811322,9.487087028064416,28.40931888589401C11.526083498130577,29.351875146331466,13.75403640584063,29.667890872430885,16,29.707469183951616" fill="#075985" strokewidth="0"/>
+</g>
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#000000" stroke-width="0.32">
+<defs>
+<linearGradient id="a" x1="-645.732" y1="839.188" x2="-654.59" y2="839.25" gradientTransform="matrix(-0.977, -0.323, -0.29, 0.877, -375.944, -928.287)" gradientUnits="userSpaceOnUse">
+<stop offset="0.231" stop-color="#999875"/>
+<stop offset="0.563" stop-color="#9b9977"/>
+<stop offset="0.683" stop-color="#a09f7e"/>
+<stop offset="0.768" stop-color="#a9a889"/>
+<stop offset="0.837" stop-color="#b7b69a"/>
+<stop offset="0.896" stop-color="#c9c7b0"/>
+<stop offset="0.948" stop-color="#deddcb"/>
+<stop offset="0.994" stop-color="#f8f6eb"/>
+<stop offset="1" stop-color="#fbf9ef"/>
+</linearGradient>
+<linearGradient id="b" x1="-644.287" y1="823.405" x2="-657.028" y2="845.476" gradientTransform="matrix(-0.977, -0.323, -0.29, 0.877, -375.944, -928.287)" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#48a547"/>
+<stop offset="1" stop-color="#3f9143"/>
+</linearGradient>
+<linearGradient id="c" x1="-643.386" y1="839.485" x2="-652.418" y2="833.417" gradientTransform="matrix(-0.977, -0.323, -0.29, 0.877, -375.944, -928.287)" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#41a247"/>
+<stop offset="0.352" stop-color="#4ba74b"/>
+<stop offset="0.956" stop-color="#67b554"/>
+<stop offset="1" stop-color="#69b655"/>
+</linearGradient>
+</defs>
+<title>file_type_mongo</title>
+<path d="M16.62,30l-.751-.249s.1-3.8-1.275-4.067c-.9-1.048.133-44.741,3.423-.149a2.712,2.712,0,0,0-1.333,1.523A14.1,14.1,0,0,0,16.62,30Z" style="fill:url(#a)"/>
+<path d="M17.026,26.329a13.223,13.223,0,0,0,5-13.225C20.556,6.619,17.075,4.487,16.7,3.673a9.792,9.792,0,0,1-.825-1.6l.277,18.069S15.578,25.664,17.026,26.329Z" style="fill:url(#b)"/>
+<path d="M15.487,26.569S9.366,22.4,9.72,15.025A15.54,15.54,0,0,1,15.239,3.377,1.725,1.725,0,0,0,15.846,2c.381.82.319,12.243.359,13.579C16.36,20.776,15.916,25.588,15.487,26.569Z" style="fill:url(#c)"/>
+</g>
+<g id="SVGRepo_iconCarrier">
+<defs>
+<linearGradient id="a" x1="-645.732" y1="839.188" x2="-654.59" y2="839.25" gradientTransform="matrix(-0.977, -0.323, -0.29, 0.877, -375.944, -928.287)" gradientUnits="userSpaceOnUse">
+<stop offset="0.231" stop-color="#999875"/>
+<stop offset="0.563" stop-color="#9b9977"/>
+<stop offset="0.683" stop-color="#a09f7e"/>
+<stop offset="0.768" stop-color="#a9a889"/>
+<stop offset="0.837" stop-color="#b7b69a"/>
+<stop offset="0.896" stop-color="#c9c7b0"/>
+<stop offset="0.948" stop-color="#deddcb"/>
+<stop offset="0.994" stop-color="#f8f6eb"/>
+<stop offset="1" stop-color="#fbf9ef"/>
+</linearGradient>
+<linearGradient id="b" x1="-644.287" y1="823.405" x2="-657.028" y2="845.476" gradientTransform="matrix(-0.977, -0.323, -0.29, 0.877, -375.944, -928.287)" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#48a547"/>
+<stop offset="1" stop-color="#3f9143"/>
+</linearGradient>
+<linearGradient id="c" x1="-643.386" y1="839.485" x2="-652.418" y2="833.417" gradientTransform="matrix(-0.977, -0.323, -0.29, 0.877, -375.944, -928.287)" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#41a247"/>
+<stop offset="0.352" stop-color="#4ba74b"/>
+<stop offset="0.956" stop-color="#67b554"/>
+<stop offset="1" stop-color="#69b655"/>
+</linearGradient>
+</defs>
+<title>file_type_mongo</title>
+<path d="M16.62,30l-.751-.249s.1-3.8-1.275-4.067c-.9-1.048.133-44.741,3.423-.149a2.712,2.712,0,0,0-1.333,1.523A14.1,14.1,0,0,0,16.62,30Z" style="fill:url(#a)"/>
+<path d="M17.026,26.329a13.223,13.223,0,0,0,5-13.225C20.556,6.619,17.075,4.487,16.7,3.673a9.792,9.792,0,0,1-.825-1.6l.277,18.069S15.578,25.664,17.026,26.329Z" style="fill:url(#b)"/>
+<path d="M15.487,26.569S9.366,22.4,9.72,15.025A15.54,15.54,0,0,1,15.239,3.377,1.725,1.725,0,0,0,15.846,2c.381.82.319,12.243.359,13.579C16.36,20.776,15.916,25.588,15.487,26.569Z" style="fill:url(#c)"/>
+</g>
+</svg>

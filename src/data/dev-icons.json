@@ -1,0 +1,44 @@
+{
+    "dev_icons": [
+        {
+            "src": "/icons/html-5.svg",
+            "alt": "html5 icon"
+        },
+        {
+            "src": "/icons/css-3.svg",
+            "alt": "css3 icon"
+        },
+        {
+            "src": "/icons/js.svg",
+            "alt": "javascript icon"
+        },
+        {
+            "src": "/icons/php.svg",
+            "alt": "php icon"
+        },
+        {
+            "src": "/icons/react.svg",
+            "alt": "react icon"
+        },
+        {
+            "src": "/icons/ts.svg",
+            "alt": "typescript icon"
+        },
+        {
+            "src": "/icons/tailwindcss.svg",
+            "alt": "tailwind css icon"
+        },
+        {
+            "src": "/icons/mysql.svg",
+            "alt": "mysql icon"
+        },
+        {
+            "src": "/icons/mongodb.svg",
+            "alt": "mongodb icon"
+        },
+        {
+            "src": "/icons/github.svg",
+            "alt": "github icon"
+        }
+    ]
+}

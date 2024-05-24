@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: "Quicksand", sans-serif;
+    }
+}
+
+:root {
+    --color-1: #000;
+    --color-2: #01012b;
+    --color-3: #020242;
+}
+
+.bg-bluedark {
+    background: linear-gradient(to right, var(--color-1) 0%, var(--color-2) 25%, var(--color-3) 45%, var(--color-3) 55%, var(--color-2) 75%, var(--color-1) 100%);
+    margin: 0;
+}
+
+.tooltip {
+    visibility: hidden;
+    width: 120px;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 120%;
+    left: 50%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.group:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-100%));
+    }
+}
+
+.animate-scroll {
+    animation: scroll 30s ease infinite;
+}
