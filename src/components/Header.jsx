@@ -10,8 +10,8 @@ export default function Header() {
                     <h1 className="text-5xl font-bold">Javier Giménez</h1>
                     <h2 className="text-6xl font-black bg-gradient-to-r from-green-400 to-emerald-600 bg-clip-text text-transparent">Web Developer</h2>
                 </div>
-                <div className="w-40 h-40 mt-10 rounded-full overflow-hidden border-[3px] border-emerald-500">
-                    <img src="/photo.png" alt="profile photo" className="w-44 h-44 object-contain" />
+                <div className="w-48 h-48 mt-10 rounded-full overflow-hidden border-2 border-emerald-500">
+                    <img src="/photo.png" alt="profile photo" className="w-full h-full object-cover m-1" />
                 </div>
             </div>
 

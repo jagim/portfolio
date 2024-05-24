@@ -2,13 +2,14 @@ import { gitHub_icon, link_icon } from "./Icons";
 
 export default function ProjectCard({ project }) {
     return (
-        <article className="flex flex-col w-[35rem] border-2 border-sky-900 rounded-xl shadow shadow-sky-700 overflow-hidden">
-            <div className="flex">
-                <img src={project.images[0]} alt={project.name} className="h-[18rem] w-full object-cover object-top rounded-xl" />
-            </div>
-            <div className="my-4 mx-10 flex-1">
-                <h3 className="text-xl font-bold">{project.name}</h3>
-                <div className="flex flex-wrap gap-2 mt-3">
+        <article className="grid lg:grid-cols-2 grid-flow-row gap-5 mx-5 overflow-hidden">
+
+            <div className="my-auto mx-10">
+                <div className="flex flex-col gap-5 text-wrap flex-1">
+                    <h3 className="text-2xl text-center font-bold">{project.name}</h3>
+                    <p className="text-lg font-medium text-slate-300">{project.description}</p>
+                </div>
+                <div className="flex flex-wrap gap-2 mt-16">
                     {project.techs.map((tech, index) => (
                         <label
                             key={index}
@@ -16,25 +17,27 @@ export default function ProjectCard({ project }) {
                         >{tech}</label>
                     ))}
                 </div>
-                <div className="flex mt-4 gap-5">
+                <div className="flex justify-center mt-10 gap-10">
                     <a
                         href={project.github}
-                        className="text-emerald-400 hover:scale-110"
+                        className="text-emerald-400 px-5 py-1 border-t-2 border-b-2 border-emerald-400 rounded-lg hover:text-emerald-200 hover:border-emerald-200 hover:scale-125"
                         target="_blank"
                         rel="noopener noreferrer"
-                    >{gitHub_icon(28, 28)}</a>
+                    > {gitHub_icon(32, 32)}</a>
                     <a
                         href={project.url}
-                        className="text-emerald-400 hover:scale-110"
+                        className="text-emerald-400 px-5 py-1 border-t-2 border-b-2 border-emerald-400 rounded-lg hover:text-emerald-200 hover:border-emerald-200 hover:scale-125"
                         target="_blank"
                         rel="noopener noreferrer"
                     >{link_icon()}</a>
                 </div>
             </div>
-            <button
-                type="button"
-                className="mt-2 px-3 py-2 text-slate-300 hover:text-orange-400 font-semibold bg-sky-800"
-            >Read more...</button>
+
+            <div className="my-auto mx-auto w-fit">
+                <img src={project.images[0]} alt={project.name} className="h-[18rem] w-full object-cover object-top rounded-xl" />
+            </div>
+
+
         </article>
     )
 }

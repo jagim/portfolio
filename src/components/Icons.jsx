@@ -62,7 +62,7 @@ export function right_icon() {
 
 export function link_icon() {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" width={28} height={28} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width={32} height={32} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-link">
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
             <path d="M9 15l6 -6" />
             <path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" />
