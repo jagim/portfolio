@@ -17,16 +17,16 @@ export default function ProjectCard({ project }) {
                         >{tech}</label>
                     ))}
                 </div>
-                <div className="flex justify-center mt-10 gap-10">
+                <div className="flex justify-center my-10 gap-10">
                     <a
                         href={project.github}
-                        className="text-emerald-400 px-5 py-1 border-t-2 border-b-2 border-emerald-400 rounded-lg hover:text-emerald-200 hover:border-emerald-200 hover:scale-125"
+                        className="text-emerald-400 px-5 py-1 border-2 border-emerald-400 rounded-lg hover:text-emerald-300 hover:border-emerald-200 hover:scale-125"
                         target="_blank"
                         rel="noopener noreferrer"
                     > {gitHub_icon(32, 32)}</a>
                     <a
                         href={project.url}
-                        className="text-emerald-400 px-5 py-1 border-t-2 border-b-2 border-emerald-400 rounded-lg hover:text-emerald-200 hover:border-emerald-200 hover:scale-125"
+                        className="text-emerald-400 px-5 py-1 border-2 border-emerald-400 rounded-lg hover:text-emerald-300 hover:border-emerald-200 hover:scale-125"
                         target="_blank"
                         rel="noopener noreferrer"
                     >{link_icon()}</a>
@@ -36,8 +36,6 @@ export default function ProjectCard({ project }) {
             <div className="my-auto mx-auto w-fit">
                 <img src={project.images[0]} alt={project.name} className="h-[18rem] w-full object-cover object-top rounded-xl" />
             </div>
-
-
         </article>
     )
 }

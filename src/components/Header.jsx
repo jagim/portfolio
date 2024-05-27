@@ -1,4 +1,4 @@
-import ButtonsBar from "./ButtonsBar"
+import ContactButtons from "./ContactButtons"
 
 export default function Header() {
     return (
@@ -15,7 +15,7 @@ export default function Header() {
                 </div>
             </div>
 
-            <ButtonsBar />
+            <ContactButtons />
 
             <div className="w-2/3 mx-auto flex flex-col gap-2 mt-16 border-[2px] border-sky-800 shadow shadow-sky-700 p-4 rounded-tl-3xl rounded-br-3xl text-wrap">
                 <h2 className="text-xl text-green-400 font-bold">About me:</h2>
