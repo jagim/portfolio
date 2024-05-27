@@ -1,6 +1,16 @@
-import { gitHub_icon, link_icon } from "./Icons";
+import { useState } from "react"
+import { gitHub_icon, link_icon } from "./Icons"
+import { useEffect } from "react"
 
 export default function ProjectCard({ project }) {
+    const [currentIndex, setCurrentIndex] = useState(0)
+    const handlePrevImage = () => {
+        setCurrentIndex((prevIndex) => (prevIndex - 1 + project.images.length) % project.images.length)
+    }
+    const handleNextImage = () => {
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % project.images.length)
+    }
+
     return (
         <article className="grid lg:grid-cols-2 grid-flow-row gap-5 mx-5 overflow-hidden">
 
@@ -33,9 +43,17 @@ export default function ProjectCard({ project }) {
                 </div>
             </div>
 
-            <div className="my-auto mx-auto w-fit">
-                <img src={project.images[0]} alt={project.name} className="h-[18rem] w-full object-cover object-top rounded-xl" />
+            <div className="mx-auto my-auto w-fit">
+                <img
+                    src={project.images[currentIndex]}
+                    alt={project.name} className="h-[18rem] w-full object-cover object-top rounded-xl"
+                />
+                <div className="flex justify-center gap-5 mt-5">
+                    <button className="p-2 font-semibold text-orange-400" onClick={handlePrevImage}>Prev</button>
+                    <button className="p-2 font-semibold text-orange-400" onClick={handleNextImage}>Next</button>
+                </div>
             </div>
+
         </article>
     )
 }
