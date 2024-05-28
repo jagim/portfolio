@@ -14,12 +14,13 @@ export default function Header() {
                     <img src="/photo.png" alt="profile photo" className="w-full h-full object-cover m-1" />
                 </div>
             </div>
-
-            <ContactButtons />
-
+            <div className="mt-8">
+                <ContactButtons />
+            </div>
             <div className="w-2/3 mx-auto flex flex-col gap-2 mt-16 border-[2px] border-sky-800 shadow shadow-sky-700 p-4 rounded-tl-3xl rounded-br-3xl text-wrap">
                 <h2 className="text-xl text-green-400 font-bold">About me:</h2>
-                <p className="text-lg font-medium text-slate-300">Proactive web developer passionate about continuous learning. I have proven experience and skills in creative problem solving, highlighting my ability to find quick and effective solutions.</p>
+                <p className="text-lg font-medium text-slate-300">I was born in Argentina in 1986 and, for as long as I can remember, I have always been passionate about technology. This passion, combined with my love for solving problems, led me to the world of programming.</p>
+                <p className="text-lg font-medium text-slate-300">Web development has been my calling, as I find in it the perfect balance between solving problems and creating designs that are visually attractive, dynamic and functional.</p>
             </div>
 
         </header>
