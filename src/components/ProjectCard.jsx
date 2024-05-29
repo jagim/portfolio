@@ -13,7 +13,6 @@ export default function ProjectCard({ project }) {
 
     return (
         <article className="grid lg:grid-cols-2 grid-flow-row gap-5 mx-5 overflow-hidden">
-
             <div className="my-auto mx-10">
                 <div className="flex flex-col gap-5 text-wrap flex-1">
                     <h3 className="text-2xl text-center font-bold">{project.name}</h3>
@@ -42,7 +41,6 @@ export default function ProjectCard({ project }) {
                     >{link_icon()}</a>
                 </div>
             </div>
-
             <div className="mx-auto my-auto w-fit">
                 <img
                     src={project.images[currentIndex]}
@@ -53,7 +51,6 @@ export default function ProjectCard({ project }) {
                     <button className="p-2 font-semibold text-orange-400" onClick={handleNextImage}>Next</button>
                 </div>
             </div>
-
         </article>
     )
 }

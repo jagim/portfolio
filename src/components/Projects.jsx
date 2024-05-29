@@ -21,7 +21,10 @@ export default function Projects() {
 
     return (
         <section className="mx-4 mt-16">
-            <h2 className="text-4xl font-bold text-center my-10 bg-gradient-to-r from-green-400 to-emerald-600 bg-clip-text text-transparent p-2">Projects</h2>
+            <div className="flex items-center justify-center gap-2">
+                <img src="/project-icon.svg" alt="project icon" className="w-10" />
+                <h2 className="text-5xl font-bold text-center my-10 bg-gradient-to-r from-green-400 to-emerald-600 bg-clip-text text-transparent p-2">Projects</h2>
+            </div>
             <div className="flex md:flex-row flex-col justify-center items-center gap-10">
                 <button
                     type="button"
