@@ -2,6 +2,27 @@
     "projects": [
         {
             "projectId": "1",
+            "name": "BarberShop",
+            "description": "It is a website with a sober and easy-to-use design, it has striking details that emphasize the characteristics of the business, as well as functionalities such as the possibility of booking appointments and recording customer queries.",
+            "techs": [
+                "React",
+                "TypeScript",
+                "Tailwind CSS",
+                "React Router Dom",
+                "React Hook Form"
+            ],
+            "images": [
+                "https://i.imgur.com/yBD9uil.jpg",
+                "https://i.imgur.com/OSYVu0L.jpeg",
+                "https://i.imgur.com/C3k0O89.jpeg",
+                "https://i.imgur.com/sZC4GdU.jpeg",
+                "https://i.imgur.com/A0YnOYT.jpeg"
+            ],
+            "github": "https://github.com/jagim/barber-shop.git",
+            "url": "https://jagim-barber-shop.netlify.app/"
+        },
+        {
+            "projectId": "2",
             "name": "The Pet Store",
             "description": "The Pet Store is an application with a friendly and intuitive interface, which allows you to search for products using different types of filters, a cart section so you can manage your purchases, and also sections with information about services, where to find us and learn about us.",
             "techs": [
@@ -19,7 +40,7 @@
             "url": "https://jagim-pet-store.netlify.app"
         },
         {
-            "projectId": "2",
+            "projectId": "3",
             "name": "Drink-Tionary",
             "description": "DrinkTionary is an intuitive and easy-to-use app designed for beverage enthusiasts. This tool allows users to search for a wide variety of drinks, from classic cocktails to innovative sodas, and get their detailed recipes. With DrinkTionary, users can explore new drinks based on their available ingredients, categories (such as cocktails, shakes, smoothies, etc.), or specific names.",
             "techs": [
@@ -40,7 +61,7 @@
             "url": "https://jagim-drink-tionary.netlify.app"
         },
         {
-            "projectId": "3",
+            "projectId": "4",
             "name": "Expense Planner",
             "description": "Expense Planner is an intuitive and easy-to-use application designed to help you manage and plan your personal finances. With a friendly interface and essential functions, this tool will allow you to keep detailed control of your income and expenses, making it easier for you to achieve your financial goals.",
             "techs": [
@@ -58,7 +79,7 @@
             "url": "https://jagim-expense-planner.netlify.app"
         },
         {
-            "projectId": "4",
+            "projectId": "5",
             "name": "Veterinary Cares",
             "description": "Veterinary Cares is an application designed specifically for veterinarians, facilitating appointment management and detailed patient registration. With an intuitive and friendly interface, allows veterinarians and administrative staff to coordinate appointments efficiently, ensuring timely and organized care for each pet.",
             "techs": [
@@ -76,7 +97,7 @@
             "url": "https://jagim-vet-cares.netlify.app"
         },
         {
-            "projectId": "5",
+            "projectId": "6",
             "name": "Music Festival 2025",
             "description": "Design of a simple and very intuitive landing page, with line up, gallery and ticket price sections.",
             "techs": [

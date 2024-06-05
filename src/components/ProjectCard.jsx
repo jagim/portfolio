@@ -41,7 +41,7 @@ export default function ProjectCard({ project }) {
                     >{link_icon()}</a>
                 </div>
             </div>
-            <div className="mx-auto my-auto w-fit">
+            <div className="mx-auto my-auto w-full">
                 <img
                     src={project.images[currentIndex]}
                     alt={project.name} className="h-[18rem] w-full object-cover object-top rounded-xl"
