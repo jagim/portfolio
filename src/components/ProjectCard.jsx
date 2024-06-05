@@ -26,25 +26,26 @@ export default function ProjectCard({ project }) {
                         >{tech}</label>
                     ))}
                 </div>
-                <div className="flex justify-center my-10 gap-10">
+                <div className="flex justify-center my-10 gap-8">
                     <a
                         href={project.github}
-                        className="text-emerald-400 px-5 py-1 border-2 border-emerald-400 rounded-lg hover:text-emerald-300 hover:border-emerald-200 hover:scale-125"
+                        className="flex gap-2 items-center text-emerald-400 font-semibold px-5 py-2 bg-blue-950 border-2 border-slate-600 rounded-lg hover:scale-125"
                         target="_blank"
                         rel="noopener noreferrer"
-                    > {gitHub_icon(32, 32)}</a>
+                    >{gitHub_icon(28, 28)} Code</a>
                     <a
                         href={project.url}
-                        className="text-emerald-400 px-5 py-1 border-2 border-emerald-400 rounded-lg hover:text-emerald-300 hover:border-emerald-200 hover:scale-125"
+                        className="flex gap-2 items-center text-emerald-400 font-semibold px-5 py-2 bg-blue-950 border-2 border-slate-600 rounded-lg hover:scale-125"
                         target="_blank"
                         rel="noopener noreferrer"
-                    >{link_icon()}</a>
+                    >{link_icon()} Site</a>
                 </div>
             </div>
             <div className="mx-auto my-auto w-full">
                 <img
                     src={project.images[currentIndex]}
-                    alt={project.name} className="h-[18rem] w-full object-cover object-top rounded-xl"
+                    alt={project.name}
+                    className="h-full w-full object-cover object-top rounded-xl"
                 />
                 <div className="flex justify-center gap-5 mt-5">
                     <button className="p-2 font-semibold text-orange-400" onClick={handlePrevImage}>Prev</button>
